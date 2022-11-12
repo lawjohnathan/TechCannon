@@ -1,0 +1,43 @@
+doctype html
+html
+  head
+    link(rel='stylesheet', href='/stylesheets/style.css')
+    script(src='https://cdn.jsdelivr.net/npm/animejs@3.0.1/lib/anime.min.js')
+    script(src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js")
+
+    // if everything vanishes on page, the html to pug conversion may be at fault
+
+
+
+
+
+
+
+  body
+
+
+      .topnav
+
+          a.active(href="/") Home
+          a.facebook(href="#news")
+              img(src="facebook.png", alt="Flowers in Chania", width="15", height="15", align='center')
+          a.twitter(href="#contact")
+              img(src="Twitter.png", alt="Flowers in Chania", width="15", height="15", align='center')
+          a.instagram(href="#about")
+              img(src="Instagram.png", alt="Flowers in Chania", width="15", height="15", align='center')
+          a.youtube(href="#contact")
+              img(src="youtube.png", alt="Flowers in Chania", width="15", height="15", align='center')
+          a.pintrest(href="#about")
+              img(src="Pintrest.png", alt="Flowers in Chania", width="15", height="15", align='center')
+          a.image(href="/")
+            img(src="TechCannonlogo1.png", alt="Flowers in Chania", width="150", height="150", align='center')
+
+
+
+      canvas.background
+
+      block content
+
+      script(src='https://cdnjs.cloudflare.com/ajax/libs/particlesjs/2.2.2/particles.min.js')
+
+
