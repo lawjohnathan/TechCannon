@@ -1,0 +1,259 @@
+#rod {
+  position: fixed;
+  margin-top: 20%;
+  margin-left: 50%;
+  width: 2px;
+  height: 150px;
+  border-radius: 5px;
+  transform-origin: 50% 0%;
+  transform: rotate(60deg);
+  background-color: green;
+}
+
+#pivot {
+  position: absolute;
+  top: -5px;
+  left: -3px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: black;
+}
+
+#ball {
+  position: absolute;
+  bottom: -10px;
+  left: -10px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: orange;
+}
+
+head {
+
+  background-color: #61C3FF;
+
+}
+
+html, body{
+  position: relative;
+  width: 100%;
+  margin:0px;
+  background-image: url("Aurora1.jpg");
+  z-index:-1;
+
+
+
+}
+.background {
+  display: block;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+h1{
+  color: #61C3FF;
+  z-index: 1;
+  margin-left: 45%;
+}
+
+/*p {
+  color: rgb(33, 37, 41);
+  font-family: "Source Serif Pro",
+  georgia, times, "Times New Roman",
+  serif; font-size: 17px;
+  font-style: normal;
+  font-variant-ligatures: normal;
+  font-variant-caps: normal;
+  font-weight: 400;
+  letter-spacing: normal;
+  orphans: 2;
+  text-align: left;
+  text-indent: 0px;
+  text-transform: none;
+  white-space: normal;
+  widows: 2;
+  word-spacing: 0px;
+  -webkit-text-stroke-width: 0px;
+  background-color: rgb(255, 255, 255);
+  text-decoration-thickness: initial;
+  text-decoration-style: initial;
+  text-decoration-color: initial;
+  display: inline !important;
+  float: none;
+} */
+
+
+.topnav {
+  position: absolute;
+  overflow: hidden;
+  background-color: #333;
+  height: 130px;
+  z-index: 7;
+  width: 100%;
+
+}
+
+.topnav a.image {
+  padding-top: 0px;
+  margin-right: -50px;
+  margin-left: 30%;
+
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 54px 16px;
+  text-decoration: none;
+  font-family: Helvetica;
+  font-size: 17px;
+}
+
+.topnav a.pintrest:hover {
+  transition: background-color 2s ease-out 100ms;
+  background-color: #e60023;
+  color: black;
+}
+
+.topnav a.facebook:hover {
+  transition: background-color 2s ease-out 100ms;
+  background-color: #4267B2;
+  color: black;
+}
+
+
+.topnav a.youtube:hover {
+  transition: background-color 2s ease-out 100ms;
+  background-color: #FF0000;
+  color: black;
+}
+
+.topnav a.instagram:hover {
+  transition: background-color 2s ease-out 100ms;
+  background-color: #DD2A7B;
+  color: black;
+}
+
+.topnav a.twitter:hover {
+  transition: background-color 2s ease-out 100ms;
+  background-color: #1DA1F2;
+  color: black;
+}
+
+
+
+
+.topnav a:hover {
+  transition: background-color 2s ease-out 100ms;
+  background-color: dodgerblue;
+  color: black;
+}
+
+.topnav a.image:hover {
+  color: black;
+  background-color: transparent;
+  -webkit-transform: scale(0.8);
+  -ms-transform: scale(0.8);
+  transform: scale(0.8);
+  transition: 1s ease;
+}
+
+
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+section-outer{
+  max-width: 1440px;
+  margin: auto;
+  z-index: 1;
+}
+
+section-inner {
+
+  max-width: 1440px;
+  margin: auto;
+  z-index: 1;
+
+}
+
+
+.container video {
+  position: absolute;
+  max-width: 1440px;
+  margin: auto;
+  z-index: 1;
+
+}
+
+
+
+canvas {
+  position: absolute;
+  z-index: -1;
+  height: 90%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column.main {
+  float: left;
+  width: 70%;
+  padding: 10px;
+  background-color: gray;
+  height: 100%;
+
+}
+
+.column.ads {
+  float: left;
+  width: 15%;
+  padding: 80px;
+  background: transparent;
+  height: 96%;
+  color: white;
+}
+
+.column.ads h1 {
+  color: white;
+}
+
+
+.row {
+
+  margin-right: 20px;
+  margin-left: 20px;
+  padding-top: 130px;
+  height: fit-content;
+
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 100%;
+  height: fit-content;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container.card {
+  padding: 2px 16px;
+}
